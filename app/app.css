@@ -1,0 +1,86 @@
+body{
+    padding: 20px;
+}
+
+.view-container{
+    position: relative;
+}
+
+.phone-detail h1{
+    border-bottom: 1px solid black;
+}
+
+.phone-detail .phone-thumbs li{
+    display: inline-block;
+    border: 1px solid black;
+    margin: 1em;
+    cursor: pointer;
+}
+
+.phone-detail .phone-thumbs li img{
+   height: 100px;
+   width: 100px;
+   padding: 1em;
+}
+
+.phone-detail .main-Phone{
+    margin-left: 3em;
+    margin-bottom: 3em;
+}
+
+.phone-detail .specs div{
+    display: inline-block;
+    margin-right: 4em;
+}
+
+.phone-detail .specs div span{
+    font-weight: bold;
+}
+
+
+.phone-detail .phone {
+    background-color: white;
+    display: none;
+    float: left;
+    height: 400px;
+    margin-bottom: 2em;
+    margin-right: 3em;
+    padding: 2em;
+    width: 400px;
+  }
+  
+.phone-detail  .phone:first-child {
+    display: block;
+  }
+  
+.phone-detail  .phone-images {
+    background-color: white;
+    float: left;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+    width: 450px;
+  }
+
+
+.phone-list .phones {
+    list-style: none;
+}
+
+.phone-list .phones li {
+    clear: both;
+    height: 115px;
+    padding-top: 15px;
+}
+
+.phone-list  .thumb {
+    float: left;
+    height: 100px;
+    margin: -0.5em 1em 1.5em 0;
+    padding-bottom: 1em;
+    width: 100px;
+}
+
+.phone-list li div.data{
+    padding-top: 1em;   
+}
